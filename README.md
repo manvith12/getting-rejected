@@ -31,6 +31,7 @@ This project features a variety of implementations in many programming languages
 - [Cairo](/Cairo.cairo)
 - [Clojure](/Clojure.clj)
 - [COBOL](/COBOL.cbl)
+- [Coffee](/Coffee.coffee)
 - [Common Lisp](/CommonLisp.lisp)
 - [Crystal](/Crystal.cr)
 - [D](/D.d)
