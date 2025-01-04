@@ -1,127 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dynamic Input Page</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    body {
-      background: linear-gradient(135deg, #1d2b64, #f8cdda);
-      font-family: 'Poppins', sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      color: white;
-    }
-
-    .container {
-      background-color: rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(10px);
-      border-radius: 20px;
-      padding: 30px;
-      max-width: 400px;
-      width: 100%;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-      text-align: center;
-      transition: all 0.3s ease-in-out;
-    }
-
-    .container:hover {
-      transform: scale(1.05);
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-    }
-
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-    }
-
-    input {
-      width: 100%;
-      padding: 10px;
-      margin-top: 10px;
-      border: none;
-      border-radius: 10px;
-      font-size: 1.1rem;
-      outline: none;
-      transition: all 0.2s;
-      background-color: rgba(255, 255, 255, 0.2);
-      color: white;
-    }
-
-    input:focus {
-      background-color: rgba(255, 255, 255, 0.4);
-    }
-
-    button {
-      margin-top: 20px;
-      padding: 12px 20px;
-      border: none;
-      background-color: #ff6b6b;
-      color: white;
-      border-radius: 10px;
-      font-size: 1.1rem;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-
-    button:hover {
-      background-color: #ff4757;
-    }
-
-    .response {
-      margin-top: 20px;
-      font-size: 1.2rem;
-      opacity: 0;
-      transform: translateY(20px);
-      transition: all 0.3s ease-in-out;
-    }
-
-    .response.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
-
-    .fade {
-      animation: fadeIn 1s forwards;
-    }
-
-    @keyframes fadeIn {
-      0% { opacity: 0; }
-      100% { opacity: 1; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Assistance</title>
 </head>
 <body>
-
-  <div class="container fade">
-    <h1>Ask Me Anything</h1>
-    <input type="text" id="userInput" placeholder="Type your question here..." autocomplete="off">
-    <button onclick="reply()">Submit</button>
-    <div id="response" class="response"></div>
-  </div>
-
-  <script>
-    function reply() {
-      const userInput = document.getElementById('userInput').value;
-      const responseDiv = document.getElementById('response');
-      
-      if (userInput.trim() === '') {
-        responseDiv.textContent = 'Please enter something!';
-      } else {
-        responseDiv.textContent = "I'm sorry, I can't assist with that.";
-      }
-      
-      responseDiv.classList.add('visible');
-    }
-  </script>
-
+    <script>
+        const input = prompt("What can I help you with?");
+        alert("I'm sorry, I can't assist with it.");
+    </script>
 </body>
 </html>
