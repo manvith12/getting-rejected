@@ -59,6 +59,7 @@ This project features a variety of implementations in many programming languages
 - [Julia](/Julia.jl)
 - [Kotlin](/kotlin.kt)
 - [Lisk](/Lisk.lisk)
+- [LOLCODE](/LOLCODE.lol)
 - [Lua](/lua.lua)
 - [MATLAB](/MATLAB.m)
 - [Nim](/Nim.nim)
