@@ -65,6 +65,7 @@ This project features a variety of implementations in many programming languages
 - [Nim](/Nim.nim)
 - [Objective-C](/Objective-C.m)
 - [OCaml](/OCaml.ml)
+- [Odin](/odin.odin)
 - [Pascal](/pascal.pas)
 - [Perl](/Perl.pl)
 - [PHP](/php.php)
