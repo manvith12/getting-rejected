@@ -92,6 +92,7 @@ This project features a variety of implementations in many programming languages
 - [Vala](/Vala.vala)
 - [VBScript](/VBScript.vbs)
 - [VisualBasic](/VisualBasic.vb)
+- [Vlang](/vlang.v)
 - [Wolfram](/Wolfram.wl)
 - [Xamarin](/Xamarin.xaml)
 - [Zig](/Zig.zig)
