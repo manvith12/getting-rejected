@@ -45,6 +45,7 @@ This project features a variety of implementations in many programming languages
 - [Falcon](/Falcon.fal)
 - [Fortran](/Fortran.f90)
 - [GDScript](/GDScript.gd)
+- [Gleam](/gleam.gleam)
 - [Go](/go.go)
 - [Groovy](/Groovy.groovy)
 - [Hack](/Hack.hack)
